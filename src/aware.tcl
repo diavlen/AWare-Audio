@@ -471,7 +471,7 @@ proc open_new_session {} {
     
     if {[llength [dict get $::session songs]] < 1} {
         tk_messageBox -icon "warning" -message "No valid songs found in file."
-        return -1
+        #return -1
     }
 
     # update song tree with names.
